@@ -25,7 +25,7 @@ import (
 )
 
 func main() {
-	projID := os.Getenv("DATASTORE_PROJECT_ID")
+	projID := os.Getenv("ace-mile-179710")
 	if projID == "" {
 		log.Fatal(`You need to set the environment variable "DATASTORE_PROJECT_ID"`)
 	}
